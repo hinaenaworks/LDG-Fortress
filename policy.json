@@ -1,1 +1,6 @@
-
+{
+  "version": "1.0.0",
+  "asset_name": "Secure_Vault_01",
+  "action": "Authorize_Transfer",
+  "timestamp": "2026-04-27T00:00:00Z"
+}

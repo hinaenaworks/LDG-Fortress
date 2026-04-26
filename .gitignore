@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Standard Python Ignores ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# --- LDG Project Specifics ---
+# Security: NEVER commit private keys
+private_key.pem
+
+# Signatures (Optional: Keep if signing logic is local-only)
+policy.json.sig
+
+# IDE/OS Specifics (Keep existing if present)
+.DS_Store
+.vscode/
+.idea/
